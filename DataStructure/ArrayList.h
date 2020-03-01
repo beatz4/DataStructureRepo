@@ -1,9 +1,9 @@
 #pragma once
 #include <stdio.h>
+#include "NameCard.h"
 
-typedef struct _data {
-	int data;
-}LData;
+// typedef Point* LData;
+typedef NameCard* LData;
 
 typedef struct _list {
 	int currentPos;
@@ -16,12 +16,12 @@ void ListInit(List* pList) {
 	pList->count = 0;
 }
 
-void LInsert(List* pList, int data)
+void LInsert(List* pList, LData data)
 {
 	if (pList->count >= 255)
 		return;
 
-	pList->data[pList->count].data = data;
+	pList->data[pList->count] = data;
 	pList->count++;
 }
 

@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+#if 0
 #include "ArrayList.h"
 
 int main(void)
@@ -9,7 +11,6 @@ int main(void)
 	
 	ListInit(&list);
 
-#if 0
 	// 5개의 데이터 저장 //
 	LInsert(&list, 11); LInsert(&list, 11);
 	LInsert(&list, 22); LInsert(&list, 22);
@@ -52,8 +53,6 @@ int main(void)
 	}
 	
 	printf("\n\n");
-
-#endif
 
 	// 1 ~ 9 저장
 	for (int i = 1; i <= 9; i++)
@@ -101,3 +100,4 @@ int main(void)
 
 	return 0;
 }
+#endif

@@ -144,12 +144,18 @@
     <ClCompile Include="HonoiTowerSolu.c" />
     <ClCompile Include="LinearSearch.c" />
     <ClCompile Include="ListMain.c" />
+    <ClCompile Include="NameCard.c" />
+    <ClCompile Include="NameCardMain.c" />
+    <ClCompile Include="Point.c" />
+    <ClCompile Include="PointListMain.c" />
     <ClCompile Include="RecursiveBinarySearch.c" />
     <ClCompile Include="RecursiveFactorial.c" />
     <ClCompile Include="RecursiveFunc.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="NameCard.h" />
+    <ClInclude Include="Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
