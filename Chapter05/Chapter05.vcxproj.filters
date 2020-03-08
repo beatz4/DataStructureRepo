@@ -15,37 +15,43 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ArrayRead.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LinkedRead.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LinkedReadReverse.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DLinkedList.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DLinkedListMain.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Point.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="PointListMain.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DLinkedListSorMain.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClInclude Include="CLinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EmployeeList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DBLinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DBDLinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DLinkedList.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Point.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <ClCompile Include="CLinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CLinkedListMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeListMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBLinkedListMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBDLinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DBDLinkedListMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -7,6 +7,7 @@ typedef struct _node
 	struct _node* next;
 } Node;
 
+#if 0
 main(void)
 {
 	Node* head = NULL;
@@ -78,6 +79,8 @@ main(void)
 
 	return 0;
 }
+#endif
+
 
 #if 0
 int main(void)
