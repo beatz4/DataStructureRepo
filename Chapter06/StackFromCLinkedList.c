@@ -3,6 +3,7 @@
 #include "CLinkedList.h"
 #include "StackFromCLinkedList.h"
 
+#if 0
 void StackInit(CStack* pstack)
 {
 	ListInit(pstack);
@@ -39,3 +40,4 @@ Data SPeek(CStack* pstack)
 	LFirst(pstack, &data);
 	return data;
 }
+#endif

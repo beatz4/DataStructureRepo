@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "ListBaseStack.h"
 
-#if 0
 void StackInit(Stack* pstack)
 {
 	pstack->head = NULL;
@@ -43,4 +42,3 @@ Data SPeek(Stack* pstack)
 
 	return pstack->head->data;
 }
-#endif

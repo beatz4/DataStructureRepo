@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "ListBaseStack.h"
 
+#if 0
 int main(void)
 {
 	// stack 생성 초기화
@@ -18,3 +19,4 @@ int main(void)
 
 	return 0;
 };
+#endif

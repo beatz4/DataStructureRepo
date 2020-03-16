@@ -140,6 +140,9 @@
   <ItemGroup>
     <ClInclude Include="ArrayBaseStack.h" />
     <ClInclude Include="CLinkedList.h" />
+    <ClInclude Include="InfixCalculator.h" />
+    <ClInclude Include="PostCalculator.h" />
+    <ClInclude Include="InfixToPostfix.h" />
     <ClInclude Include="ListBaseStack.h" />
     <ClInclude Include="StackFromCLinkedList.h" />
   </ItemGroup>
@@ -147,8 +150,14 @@
     <ClCompile Include="ArrayBaseStack.c" />
     <ClCompile Include="ArrayBaseStackMain.c" />
     <ClCompile Include="CLinkedList.c" />
+    <ClCompile Include="InfixCalculator.c" />
+    <ClCompile Include="InfixCalculatorMain.c" />
+    <ClCompile Include="PostCalculator.c" />
+    <ClCompile Include="InfixToPostfix.c" />
+    <ClCompile Include="InfixToPostfixMain.c" />
     <ClCompile Include="ListBaseStack.c" />
     <ClCompile Include="ListBaseStackMain.c" />
+    <ClCompile Include="PostCalculatorMain.c" />
     <ClCompile Include="StackFromCLinkedList.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
