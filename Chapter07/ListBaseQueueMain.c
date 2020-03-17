@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "ListBaseQueue.h"
 
+#if 0
 int main(void)
 {
 	// Queue √ ±‚»≠
@@ -18,3 +19,4 @@ int main(void)
 
 	return 0;
 }
+#endif

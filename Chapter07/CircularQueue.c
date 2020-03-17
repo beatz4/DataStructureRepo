@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "CircularQueue.h"
 
-#if 0
+#if 1
 void QueueInit(Queue* pq)
 {
 	pq->front = 0;

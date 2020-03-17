@@ -139,11 +139,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CircularQueue.h" />
+    <ClInclude Include="Deque.h" />
     <ClInclude Include="ListBaseQueue.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CircularQueue.c" />
     <ClCompile Include="CircularQueueMain.c" />
+    <ClCompile Include="Deque.c" />
+    <ClCompile Include="DequeMain.c" />
+    <ClCompile Include="HamburgerSim.c" />
     <ClCompile Include="ListBaseQueue.c" />
     <ClCompile Include="ListBaseQueueMain.c" />
   </ItemGroup>

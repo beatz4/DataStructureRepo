@@ -21,6 +21,9 @@
     <ClInclude Include="ListBaseQueue.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Deque.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CircularQueue.c">
@@ -33,6 +36,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ListBaseQueueMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HamburgerSim.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DequeMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "ListBaseQueue.h"
 
+#if 0
 void QueueInit(Queue* pq)
 {
 	pq->front = NULL;
@@ -57,3 +58,4 @@ Data QPeek(Queue* pq)
 
 	return pq->front->data;
 }
+#endif
