@@ -3,6 +3,7 @@
 
 void ShowIntData(int data);
 
+#if 0
 int main(void)
 {
 	BTreeNode* bt1 = MakeBTreeNode();
@@ -33,6 +34,7 @@ int main(void)
 	printf("\n");
 	return 0;
 }
+#endif
 
 void ShowIntData(int data)
 {

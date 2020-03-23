@@ -143,10 +143,15 @@
     <ClCompile Include="BinaryTree2Main.c" />
     <ClCompile Include="BinaryTreeMain.c" />
     <ClCompile Include="BinaryTreeTraverseMain.c" />
+    <ClCompile Include="ExpressionMain.c" />
+    <ClCompile Include="ExpressionTree.c" />
+    <ClCompile Include="ListBaseStack.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="BinaryTree2.h" />
+    <ClInclude Include="ExpressionTree.h" />
+    <ClInclude Include="ListBaseStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
